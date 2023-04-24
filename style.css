@@ -1,0 +1,120 @@
+/* Locan Font */
+@font-face { 
+
+    font-family: Robot; 
+    src:url(fonts/Roboto-Regular.ttf); 
+}
+
+/* Index CSS Codes */
+
+.logo {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#logonav {
+    width: 150px;
+    height:70px;
+}
+
+body {
+    background-color: #ab151b;
+    color: bisque;
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    font-weight: 800px
+}
+
+.navtext {
+    color: #ab151b;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navmanila {
+    background-color: bisque;
+}
+
+#manila {
+    color: #ab151b;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.row {
+    align-items: center;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.whytext {
+    font-weight: bold;
+    color: bisque;
+}
+
+.footerfont {
+    color:bisque;
+}
+
+.card {
+    background-color: bisque;
+    color:#ab151b;
+}
+
+.socialmediaicon {
+    color: bisque;
+}
+
+.button {
+    background-color: #ab151b;
+    border: none;
+    color: bisque;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+.carousel-inner img{
+    max-height: 600px;
+}
+
+#footerlogo {
+    width: 200px;
+    height: 100px;
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: 769px) {
+    p {
+        font-size: 1.2em
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+     padding: 2em;
+     text-align: center;
+    }
+
+    .heroimg {
+        width: 70%;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
